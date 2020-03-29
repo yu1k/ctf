@@ -1,0 +1,4 @@
+Q10.[Forensics] River
+flag is cpaw{koutsukigawa}
+
+画像ファイルをダウンロードして, Exif情報を見て場所を検索. 川の名前をcpaw{}に入れて提出しました.
