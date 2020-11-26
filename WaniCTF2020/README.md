@@ -48,6 +48,31 @@ Flag:
 FLAG{you_can_edit_html_using_devtools}
 ```
 
+## [Web]
+
+問題:
+```
+問題ページ：https://simple.wanictf.org/
+
+flag.txtというファイルに私の秘密を隠したが、 完璧にサニタイズしたため辿りつける訳がない。
+
+(注意)
+simple_memo.zipは問題を解くために必須の情報ではなく、docker-composeを利用してローカルで問題環境を再現するためのものです。
+
+興味のある方は利用してみてください。
+```
+
+回答:
+```
+`reader.php` ファイルを見てみると、`../` がサニタイズされていることがわかる。
+そこで、URLのファイル名を `./flag.txt` を指定したら、フラグが入っているファイルが表示された。そこにフラグが書いてありました。
+```
+
+Flag:
+```
+FLAG{y0u_c4n_get_hi5_5ecret_fi1e}
+```
+
 ## [Web] SQL Challenge 2 （105pt Hard）
 
 問題:
