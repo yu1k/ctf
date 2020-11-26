@@ -48,7 +48,7 @@ Flag:
 FLAG{you_can_edit_html_using_devtools}
 ```
 
-## [Web]
+## [Web] Simple Memo （101pt Beginner）
 
 問題:
 ```
