@@ -26,6 +26,28 @@ Flag:
 FLAG{you_can_read_html_using_devtools}
 ```
 
+## [Web] DevTools_2 （101pt Easy）
+問題:
+```
+開発者ツールを使うと表示を書き換えることができます。
+
+5000兆円欲しい！
+
+(5000000000000000円持っていることにするとフラグを手に入れることができます。)
+
+https://devtools2[.]wanictf[.]org
+```
+
+回答:
+```
+デベロッパーツールで該当のJavaScriptのソースを `5000000000000000` に書き換えたら、alert()が出てきました。そこにフラグが書いてあります。
+```
+
+Flag:
+```
+FLAG{you_can_edit_html_using_devtools}
+```
+
 
 # Crypto
 
