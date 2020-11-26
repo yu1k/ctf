@@ -8,6 +8,24 @@ WaniCTF2020に参加し、5問通すことができ、256チーム中 150位（5
 
 ## Web
 
+## [Web] DevTools_1 （100pt Beginner）
+問題文:
+```
+ブラウザの開発者ツールを使ってソースコードをのぞいてみましょう！
+
+https://devtools1[.]wanictf[.]org/
+```
+
+回答:
+```
+リンク先ページのHTMLソースに、Flagが書いてありました。
+```
+
+Flag:
+```
+FLAG{you_can_read_html_using_devtools}
+```
+
 
 # Crypto
 
