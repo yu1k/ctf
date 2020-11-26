@@ -48,6 +48,30 @@ Flag:
 FLAG{you_can_edit_html_using_devtools}
 ```
 
+## [Web] SQL Challenge 2 （105pt Hard）
+
+問題:
+```
+問題ページ： https://sql2.wanictf.org/index.php?year=2011
+
+やっぱり前のページは危ない気がするからページを作り直したよ。これで大丈夫だね。
+
+sql-chall-2.zipは問題を解くために必須の情報ではなく、docker-composeを利用してローカルで問題環境を再現するためのものです。
+
+興味のある方は利用してみてください。
+
+```
+
+回答:
+```
+URLのクエリを ?year=years にして送信してみると、フラグが出力されたページが出てきました。
+```
+
+Flag:
+```
+FLAG{5ql_ch4r_cf_ca87b27723}
+```
+
 
 # Crypto
 
